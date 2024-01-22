@@ -37,7 +37,7 @@ const ImageUpload = () => {
             />
             <br />
           </div>
-          <Card.Title>Insert your fish image to get amazing results</Card.Title>
+          <Card.Title>Insert your fish image to detect disease</Card.Title>
           {/* <Card.Text>
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
@@ -53,7 +53,7 @@ const ImageUpload = () => {
                 fontSize: "16px",
               }}
             >
-              Upload 🐡
+              Upload 
               <Button
                
                 as="input"
@@ -63,7 +63,7 @@ const ImageUpload = () => {
                 onChange={handleImageChange}
               />
             </label>
-            <Button className="succesBtn" variant="success">Get Result 😁</Button>{" "}
+            <Button className="succesBtn" variant="success">Get Result </Button>{" "}
           </div>
         </Card>
       </div>
